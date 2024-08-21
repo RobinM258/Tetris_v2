@@ -1,0 +1,43 @@
+xxxxxxxxxx
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+
+R // ceci est la reserve qui est vide si elle est remplie on met le caractere de la piece 
+
+
+
+
+x = finito
+0 = case vide
+i = piece en i mobile
+I = piece i posé
+s = piece en S
+z = piece en z
+t = piece en en
+l = piece en l
+j = piece en j
+c = piece en carré 
+
+
+
+
+
+Changer le scale en fonction de la résolution de l'écran (0.62 pour un 1920 x 1080)

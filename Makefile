@@ -1,7 +1,8 @@
 NAME = Tetris
 
 F =	main \
-	grid
+	grid \
+	gravity
 
 S = $(foreach f, $(F), srcs/$(f).cpp)
 OBJ = $(S:.cpp=.o)

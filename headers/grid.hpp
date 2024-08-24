@@ -15,14 +15,23 @@ public:
     int SetPiece(int nb);
     void Gravity(void);
     int CanMooveDown(void);
+    int CanMooveLeft(void);
+    int CanMooveRight(void);
     void TimeSleep(void);
     void AllStatic(void);
+    void KeyHooks(void);
+    void MooveRight(void);
+    void MooveLeft(void);
+    void RefreshScreen(void);
+    void loose(void);
+    void MooveDown(void);
 
     
 private:
     int nRows;
     int nColumns;
     int cellSize;
+    int _time;
     std::vector<int> _next_tetraminos;
     Texture2D Tetrotexture_1;
     Texture2D Tetrotexture_2;

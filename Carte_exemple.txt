@@ -23,4 +23,6 @@ xxxxxxxxxx
 -Changer le scale en fonction de la résolution de l'écran (0.31 pour un 1920 x 1080)
 -Depuis l'ajout de la gravité a partir de la deuxieme piece les pieces sont 1 trop bas au moment d'apparaitre
 -Faire en sorte de ne pas tomber sur la meme piece 3 fois d'affiler 
+-La gravité peu changer de vitesse en fonction du lag du programme (PAS SUR)
     (check reserve si +2 alors re genrer un chiffre de piece)
+ 

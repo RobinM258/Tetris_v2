@@ -7,7 +7,7 @@ F =	main \
 S = $(foreach f, $(F), srcs/$(f).cpp)
 OBJ = $(S:.cpp=.o)
 
-CFLAGS = -Wall -Werror -Wextra -Iheaders -lraylib
+CFLAGS = -Wall -Werror -Wextra -Iheaders -lraylib -lm -lpthread -ldl -lrt  # -fsanitize=address -g
 
 all: $(NAME)
 r: re
